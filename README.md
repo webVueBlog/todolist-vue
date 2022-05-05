@@ -1,6 +1,6 @@
 # 用 Todoist 组织一切，管理工作和生活的To Do List，使用 Vite、Vue 和 Vuex 构建的 TodoMVC
 
-![TodoMVC Vue](./images/screenshot.png "TodoMVC Vue")
+![Todoist Vue](./images/screenshot.png "Todoist Vue")
 
 ## Concepts and tools covered
 
@@ -15,10 +15,10 @@
 
 安装依赖项后，以下 NPM 脚本变为可用：
 
-- start: 在http://localhost:xxxx上以开发模式启动应用程序
+- start: 在`http://localhost:xxxx`上以开发模式启动应用程序
 - build：将用于生产的应用程序捆绑到dist文件夹中
 - test: 运行单元和 E2E 测试
-- test:unit: 在后缀为Mocha和Chai的文件夹中运行单元测试src*.spec.js
-- test:e2e：在后缀为的文件夹中使用Cypress运行 E2E 测试tests/e2e*.spec.js
+- `test:unit`: 在后缀为Mocha和Chai的文件夹中运行单元测试`src*.spec.js`
+- `test:e2e`：在后缀为的文件夹中使用Cypress运行 E2E 测试`tests/e2e*.spec.js`
 - format：在文件夹中使用Prettier格式化代码src
 - lint:基于Airbnb 的风格指南和 Prettier 配置的ESLint lint 文件
